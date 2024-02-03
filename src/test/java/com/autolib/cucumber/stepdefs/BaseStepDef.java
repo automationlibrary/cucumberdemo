@@ -15,7 +15,7 @@ public class BaseStepDef {
 	Category category;
 
 	protected void initializeDriver() {
-		driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
+		driverManager = DriverManagerFactory.getManager(DriverType.REMOTE_CHROME);
 	}
 
 	protected void tearDown() {

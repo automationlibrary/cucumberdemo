@@ -1,5 +1,5 @@
 package com.autolib.drivers;
 
 public enum DriverType {
-	CHROME, FIREFOX;
+	CHROME, FIREFOX, REMOTE_CHROME;
 }
